@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.height_100vh{
+    min-height: calc(100vh - 77px);
+}
+
+
+.flex-canter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.word-spisang{
+    word-spacing: 1rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.move:hover{
+    transition: 0.2s linear;
+    transform: translateY(-12px);
+}
+
+.s1{
+    background-image: url("../public/bannerBcg.jpeg");
+    background-position: center;
+    background-clip: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh - 88.5px);
+}
+.width{
+    width: 3rem;
+}
+
+.S3{
+    background-image: url("../public/home-filler.jpeg");
+    background-position: center;
+    background-clip: content-box;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.prod{
+    min-height:calc(100vh - 77px) ;
+}
+
+.input-seach{
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    outline: none;
+    color:rgba(218, 149, 250, 0.89);
+    font-weight: bold;
+}
+
+
+.input-seach:hover{
+    outline: 1px solid 
+}
+
+
+
+
+
